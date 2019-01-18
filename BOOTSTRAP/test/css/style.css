@@ -1,0 +1,95 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+h2 {
+  color: orange;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+h3 {
+  color: #2E8B57;
+}
+h4 {
+  color: orange;
+}
+.bg-light {
+  background-color: orange !important;
+}
+.hellowelcome {
+  background-image: url(../img/laptop.jpg);
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hellowelcome .center {
+  max-width: 50vw;
+}
+.button {
+  background-color: orange;
+  border-radius: 5px;
+}
+.rest {
+  display: inline-flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.rest h2 {
+  justify-content: center;
+  padding-left: 70vh;
+}
+.rest .rond {
+  border-radius: 300px;
+  margin-left: 5vw;
+}
+.rest .djhon {
+  width: 50vw;
+}
+.portfolio {
+  justify-content: center;
+  align-items: center;
+}
+.corpsmarg {
+  margin-top: 10vh;
+}
+.row {
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  width: 70vw;
+}
+.row div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row img {
+  width: 100%;
+  height: auto;
+}
+#blog .card {
+  margin-left: 3vw;
+}
+#blog .blog1 {
+  margin-left: -15px;
+}
+.contact {
+  margin-top: 10vh;
+}
+.border-left {
+  border-width: 3px !important;
+}
+.djohn {
+  padding-left: 3%;
+}
